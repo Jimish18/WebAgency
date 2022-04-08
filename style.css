@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* #F2AA4CFF - light yellow */
+/* #101820FF - blueish black */
+
+nav ul
+{   
+    border-top: 7px solid #F2AA4CFF;
+    background-color: #101820FF;  
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+#logo
+{
+    background-color: #F2AA4CFF;
+}
+
+#logo a
+{
+    color: #101820FF;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #F2AA4CFF;
+    font-size: 30px;
+    transition: 500ms;
+}
+
+nav ul li a:hover
+{
+    color: rgb(255, 224, 184);
+}
+
+@media only screen and (max-width: 1010px)
+{
+    nav ul li
+    {
+        display: block;
+        text-align: center;
+    }
+
+    #logo
+    {
+        display: flex;
+    }
+}
+
+/* ################ Banner ###################*/
+
+#banner
+{
+    background-image: url(images/bg1.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#benner-title
+{
+    color: #101820FF;
+    font-size: 60px;
+}
+
+.button-section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-section button
+{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 3px solid #0F7173 ;
+    border-radius: 25px;
+    background: transparent;
+}
+
+
+/* #433E0E - army green */
+/* #5CA4A9 - cadet blue */
+/* #0F7173 - skobeloff - soft dark blue */
+/* #272932 - raisin black */
+/* #403233 - black coffee */
