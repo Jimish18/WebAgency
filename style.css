@@ -129,6 +129,18 @@ nav ul li a:hover
 
 /* ################### Skils Section ################# */
 
+#skills
+{
+    display: flex;
+    background-image: url(images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    color: white;
+}
+
 #skills-container 
 {
     margin: auto;
@@ -136,22 +148,19 @@ nav ul li a:hover
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 80px;
 }
 
 #skills-container article
 {
-    width: 40%;
+    width: 50%;
     text-align: center;
+    margin: auto;    
 }
 
 #skills-container article i
 {
     font-size: 50px;
-}
-
-#skills-container article p
-{
-    text-align: justify;
 }
 
 
