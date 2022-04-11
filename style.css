@@ -127,6 +127,33 @@ nav ul li a:hover
     color: #ffffff;
 }
 
+/* ################### Skils Section ################# */
+
+#skills-container 
+{
+    margin: auto;
+    width: fit-content;    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#skills-container article
+{
+    width: 40%;
+    text-align: center;
+}
+
+#skills-container article i
+{
+    font-size: 50px;
+}
+
+#skills-container article p
+{
+    text-align: justify;
+}
+
 
 /* #433E0E - army green */
 /* #5CA4A9 - cadet blue */
