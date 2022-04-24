@@ -151,17 +151,34 @@ nav ul li a:hover
     row-gap: 80px;
 }
 
-#skills-container article
-{
-    width: 50%;
+#skills-container article {
+    width: 80%;
     text-align: center;
-    margin: auto;    
+    padding: 30px 25px;
+    margin: auto;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+#skills-container article p
+{
+    font-size: 20px;
 }
 
 #skills-container article i
 {
     font-size: 50px;
 }
+
+#skills-container h1
+{
+    font-size: 30px;
+}
+
+.title-heading h1
+{
+    margin-top: 40px;
+}
+
 
 
 /* #433E0E - army green */
